@@ -63,24 +63,24 @@
                     Connection Requests
                 </div>
                 <div class="card-request">
-                    <div class="user-line">
+                    <div class="user-line" id="request-todd">
                         <span class="start">
                             <img src="images/todd-s.jpg" alt="Todd" class="avatar-s">
                             <span>Todd E.</span>
                         </span>
                         <span class="end">
-                            <img src="images/accept-circle.png" alt="accept" class="avatar-y">
-                            <img src="images/close-circle.png" alt="decline" class="avatar-n">
+                            <img src="images/accept-circle.png" alt="accept" class="avatar-y" onclick="accept('#request-todd')">
+                            <img src="images/close-circle.png" alt="decline" class="avatar-n" onclick="ignore('#request-todd')">
                         </span>
                     </div>
-                    <div class="user-line">
+                    <div class="user-line" id="request-alayne">
                         <span class="start">
                             <img src="images/alayne-s.jpg" alt="alayne" class="avatar-s">
                             <span>Alayne S.</span>
                         </span>
                         <span class="end">
-                            <img src="images/accept-circle.png" alt="accept" class="avatar-y">
-                            <img src="images/close-circle.png" alt="decline" class="avatar-n">
+                            <img src="images/accept-circle.png" alt="accept" class="avatar-y" onclick="accept('#request-alayne')">
+                            <img src="images/close-circle.png" alt="decline" class="avatar-n" onclick="ignore('#request-alayne')">
                         </span>
                     </div>
                 </div>
@@ -131,7 +131,7 @@
 
 
 
-
+<script src="script.js"></script>
 </body>
 
 </html>
